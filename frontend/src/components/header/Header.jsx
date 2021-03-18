@@ -7,8 +7,7 @@ export default (props) => {
         <header>
             <nav className='header'>
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#/about">Sobre</a></li>
+                    <li><a href="#">Desenvolvido por Set Sail</a></li>
                 </ul>
             </nav>
         </header>

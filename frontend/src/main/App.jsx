@@ -6,7 +6,8 @@ import React from 'react'
 import Header from '../components/header/Header'
 import Logo from '../components/logo/logo'
 import Nav from '../components/nav/nav'
-import Content from '../components/content/content'
+import Route from './routes'
+import Content from '../components/content/Main'
 
 export default (props) => {
 
@@ -15,7 +16,7 @@ export default (props) => {
             <Logo/>
             <Header/>
             <Nav/>
-            <Content/>
+            <Route/>
         </div>
     )
 }

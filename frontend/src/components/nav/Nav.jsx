@@ -6,8 +6,9 @@ export default (props) => {
     return(
         <nav className='nav'>
             <ul>
-                <li><a href="#/cadprod">Produtos</a></li>
-                <li><a href="#/cadfor">Fornecedores</a></li>
+                <li><a href="#/cadprod">Cadastrar</a></li>
+                <li><a href="#/upprod">Atualizar</a></li>
+                <li><a href="#/delprod">Excluir</a></li>
             </ul>
         </nav>
     )
