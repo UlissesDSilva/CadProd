@@ -1,16 +1,12 @@
-div.logo{
+.logo{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4D6684;
-    color: #ccc;
+    background-color: rgb(77, 102, 132);
 }
 
-.logo h1{
-    margin-bottom: 8%;
-}
 .logo a{
     text-decoration: none;
     color: #ccc;
 }
-.logo a:hover {color: #fff;}
+.logo a:hover{ color: #fff; }

@@ -1,10 +1,11 @@
-import React from 'react'
 import './Logo.css'
+import React from 'react'
+
 export default (props) => {
 
     return(
         <div className="logo">
-            <h1><a href="#">CadProd</a></h1>
+            <a href="#"><h1>CadProd</h1></a>
         </div>
-    )
-}
+    );
+};

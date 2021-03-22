@@ -6,6 +6,8 @@ module.exports = function(server){
     server.use('/api', router)
 
     const cadService = require('../api/cadProd/cadService')
+    const fornService = require('../api/cadForn/fornService')
 
-    cadService.register(router, '/cad')
+    cadService.register(router, '/registerPro')
+    fornService.register(router, '/registerForn')
 }

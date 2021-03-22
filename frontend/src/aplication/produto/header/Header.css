@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    background-color: #fff;
+}
+.header nav{
+    flex-grow: 2;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header li{
+    margin: 0 12%;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    padding: 10px 15px;
+    font-size: 1.3em;
+}
+.header a:hover{
+    background-color: rgb(77, 102, 132);
+    color: #fff;
+}
