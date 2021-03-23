@@ -1,4 +1,10 @@
 .content{
     height: 100vh;
-    background-color: rgba(77, 102, 132, 25%);
+    background-color: rgb(77, 102, 132);
+}
+
+.home img{
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
 }

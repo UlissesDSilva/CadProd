@@ -7,7 +7,7 @@ export default (props) => {
     return(
         <div>
             <Header/>
-            <Routes/>
+            <Routes/> 
         </div>
     );
 };

@@ -1,7 +1,7 @@
 .formRegister{
     position: relative;
     top: 125px;
-    margin-left: 13%;
+    margin-left: 30%;
 }
 .formProd{
     position: relative;
@@ -18,7 +18,7 @@ input{
     height: 35px;
     border-radius: 15px;
     padding: 5px;
-    background-color: rgba(77, 102, 132, 0.2);
+    background-color: rgba(160, 184, 213, 0.994);
     border: 1px solid #ccc;
     box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.2);
     margin: 20px 0;
